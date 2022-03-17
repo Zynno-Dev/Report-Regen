@@ -55,6 +55,13 @@ function intervaloClicker(){
     setTimeout(interval2, 10000);
     i = i + 1;
     console.log(i)
+    if (i == 10) {
+        console.log("ChizziGay")
+    }
+    if (i == 20) {
+        console.log("OrtizGatito")
+    }
 }
 
 setInterval(intervaloClicker, 11000);
+
